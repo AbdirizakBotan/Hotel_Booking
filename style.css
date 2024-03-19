@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 10px;
+}
+.logo  i{
+    background-color: #FFDF2B;
+    padding: 6px;
+    height: 34px;
+    font-size: 35px;
+    color: black;
+    border-radius: 6px;
+    margin-left: 18%;
+    margin-top: 4%;
+}
+.logo h1{
+    margin-top: 5%;
+    padding: 6px;
+    color:#FFDF2B;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #FFDF2B;
+}
+.header ul li{
+     font-size: 22px;
+     padding: 24px 40px;
+}
+.btn-header{
+    margin-top: 14px;
+   margin-right: 6%;
+
+}
+.btn-header button{
+    background-color: #FFDF2B;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.btn-header button:hover{
+    outline-color:#FFDF2B;
+    background-color: white;
+    border: 2px solid#FFDF2B;
+    color:#FFDF2B;
+}
+
+.hero {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/921/708/937/best-hotels-travel-thailand-tourism-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 2%;
+    margin-right: 4%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+}
+.left h1{
+    font-size: 85px;
+    color: white;
+    padding: 40px;
+}
+.left p{
+    font-size: 22px;
+    color: white;
+    padding-left: 46px;
+    padding-bottom: 38%;
+    /* padding-top: -3%; */
+
+}
+.form{
+    background-color:white;
+    margin-top: 5%;
+    margin-right: 6%;
+    border-radius: 12px;
+    width: 340px;
+    height: 359px;
+}
+label{
+    padding-left: 4%;
+}
+.form h2{
+    padding-top: 2%;
+    padding-left: 4%;
+}
+.form p{
+   margin-left: 5%;
+}
+/* .lbl p{
+   padding-top: 15%;
+} */
+label{
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.input1{
+    outline: none;
+    padding: 6px;
+    background-color: whitesmoke;
+    border: none;
+    width: 298px;
+    height: 50px;
+    margin-top: 2% ;
+    margin-left:4%;
+    border-radius: 6px;
+}
+.input-parent{
+    display: flex;
+    justify-content: space-around;
+}
+.left-side input{
+    background-color: whitesmoke;
+    margin-right: 14%;
+    width: 130px;
+    padding: 6px;
+    height: 40px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+.right-side input{
+    padding: 6px;
+    width: 130px;
+    background-color: whitesmoke;
+    height: 40px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+
+
+ .btn-hero{
+    outline-color:#FFDF2B;
+    background-color: white;
+    margin-left: 5% ;
+    margin-top: 10%;
+    background-color: #FFDF2B;
+    border: none;
+    margin-right: 1%;
+    padding: 12px 80px;
+    color: white;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.btn-hero:hover{
+    outline-color:#FFDF2B;
+    background-color: white;
+    border: 2px solid #FFDF2B;
+    color: #FFDF2B;
+}
+.acounts{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.title h1{
+    margin-top: 7%;
+    font-size: 40px;
+}
+.visa img{
+   margin-top: 20%;
+    width: 100px;
+    
+}
+.paybal img{
+    width: 100px;
+    margin-bottom: 17%;
+   
+}
+.master-card img{
+    width: 100px;
+    margin-top: 14%;
+    background-color: white;
+    
+}
+.discard img{
+    margin-top: 35%;
+    width: 100px;
+    
+}
+.stripe img{
+    width: 100px;
+    margin-top: 14%;
+    
+}
+.lemon img{
+    width: 140px;
+   margin-bottom: 4%;
+
+}
+.hotel{
+    margin-left: 2%;
+    margin-right: 4%;
+    height: 600px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+}
+.hotel-title-parent{
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+.hotel-left p{
+    color:rgb(2, 14, 82);
+}
+.hotel-left h4{
+    color:#FFDF2B;
+    padding-bottom: 4%;
+}
+.hotel-left h1{
+    font-size: 60px;
+    padding-bottom: 4%;
+}
+.hotel-left{
+    margin-left: 4%;
+    margin-top: 6%;
+}
+.hotel-title-parent h3{
+    color: #FFDF2B;
+    margin-top: 15%;
+    margin-right: 3%;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    background-color: white;
+    height: 250px;
+    width: 100%;
+    padding: 12px;
+    border-radius: 18px;
+}
+
+.box-parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.box1 img{
+    border-radius: 6px;
+    width: 300px;
+    height: 170px;
+}
+.young{
+    display: flex;
+    justify-content: space-between;
+}
+.young p{
+    
+    padding-top: 4%;
+}
+.young h6 i{
+    margin-right: 8px;
+    color:#FFDF2B;
+}
+.young p i{
+    color:#FFDF2B;
+    margin-right: 6px;
+}
+.youngest{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.youngest h5{
+    padding: 2px;
+}
+.youngest h5 i{
+    margin-top: 1px;
+    margin-right: 6px;
+}
+.benefit{
+    height: 500px;
+    margin-left: 2%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.benefit-left{
+    margin-left: 2%;
+    position: relative;
+}
+.benefit-left .img1{
+    margin-left: 10%;
+    margin-top: 8%;
+    border-radius: 22px;
+    width: 320px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 440px;
+    background-image: url(https://images.ctfassets.net/rxqefefl3t5b/2MvpllaTS44GZBPDvxPip6/22fb7211be34011ef52eaff3eb26a77e/shutterstock_444622738.jpg?fl=progressive&q=80);
+}
+.benefit-left .img2{
+    border: 5px solid white;
+    background-image: url(https://i.natgeofe.com/n/86979a5a-d9e7-4b59-8497-fd436fcc889a/huts-maldives-blue-water_2x3.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+    position: absolute;
+    top: 150px;
+    left: 210px;
+   width: 250px;
+   height: 260px;
+   border-radius: 22px;
+}
+.right-benefit{
+  margin-top: 5%;
+  margin-right: 8%;
+}
+.right-benefit h3{
+    color:#FFDF2B;
+    font-size: 18px;
+}
+.right-benefit h1{
+    margin-top:2% ;
+    font-size: 40px;
+}
+.right-benefit p{
+    margin-top: 2%;
+}
+.benefit-icons i{
+    font-size: 30px;
+    padding-top: 28px;
+}
+.benefit-icons-parent{
+    display: flex;
+}
+.text{
+    margin-top: 5%;
+    margin-left: 2%;
+}
+.text p{
+margin-bottom: 4%;
+}
+.text h6{
+    font-size: 19px;
+}
+.faq{
+    margin-top: 50px;
+    text-align:  center;
+     height: 500px;
+}
+.faq h4{
+    margin-bottom: 20px;
+    color: #FFDF2B;
+}
+.faq h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.faq p{
+    font-size: 20px;
+}
+.faqone{
+    border-radius: 12px;
+    border: 1px rgb(215,211,211) solid;
+    width: 500px;
+}
+.faq-question{
+    margin: 2px 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.faq-parent{
+    gap: 30px;
+    margin-top: 50px;
+     display: flex;
+     justify-content: center;
+}
+.faq-p{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+.faq-q{
+    display: flex;
+    justify-content: space-between;
+}
+.faqtwo{
+    width: 200px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px rgb(215,211,211) solid;
+    width: 500px;
+}
+.review-parent{
+    background-color: #F8F9FB;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    margin: 50px 20px ;
+}
+.review-parent img{
+    margin-right: 4%;
+    margin-top: 2%;
+    width: 650px;
+    height: 460px;
+    border-radius: 22px;
+}
+.box-review i{
+    font-size: 40px;
+}
+.box-review p{
+    color: grey;
+    font-size: 20px;
+}
+.box-review{
+    position: absolute;
+    margin-top: 20px;
+    right: 20px;
+    top: 180px;
+    line-height: 50px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 12px;
+}
+.right-review h4{
+color: orange;
+font-size: 30px;
+}
+.right-review h1{
+    font-size: 50px;
+}
+.right-review{
+    margin-top: 3%;
+    margin-right: 8%;
+}
+/* .iconsr i{
+    margin-top: 200p;
+} */
+.footer{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    height: 430px;
+}
+.news-letter-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.text-f{
+    margin-left: 3%;
+}
+.input-foter{
+    margin-right: 3%;
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+}
+.input-foter input{
+    border: none;
+    outline: none;
+}
+.input-foter button{
+    font-size: 21px;
+    border-radius: 10px;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    background-color: #FFDF2B;
+}
+hr{
+    margin-left: 2%;
+    margin-right: 3%;
+    margin-top: 40px;
+    color:rgb(59, 57, 57);
+}
+.links-parent{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.right-links{
+    margin-right: 4%;
+    display: flex;
+    gap: 70px;
+}
+.right-links h4{
+    margin-bottom: 24px;
+    font-size: 23px;
+
+}
+.right-links p{
+    line-height: 30px;
+}
+.links-left p{
+    margin-left: 18%;
+}
+.copy{
+    margin-top: 12px;
+    text-align: center;
+}
